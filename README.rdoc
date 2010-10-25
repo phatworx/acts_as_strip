@@ -1,6 +1,22 @@
 = acts_as_strip
 
-Description goes here.
+Plugin to remove spaces on fields
+
+== Dependency
+
+* ActiveRecord
+
+== Install
+
+Insert into Gemfile
+
+  gem 'acts_as_strip'
+
+== Integration
+
+class Model < ActiveRecord::Base
+  acts_as_strip :field1, :field2
+end
 
 == Contributing to acts_as_strip
  
