@@ -14,9 +14,9 @@ Insert into Gemfile
 
 == Integration
 
-class Model < ActiveRecord::Base
-  acts_as_strip :field1, :field2
-end
+  class Model < ActiveRecord::Base
+    acts_as_strip :field1, :field2
+  end
 
 == Maintainers
 
