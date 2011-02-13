@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
     "init.rb",
     "lib/acts_as_strip.rb",
     "spec/acts_as_strip_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "spec/support/models.rb"
   ]
   s.homepage = %q{http://github.com/phatworx/acts_as_strip}
   s.require_paths = ["lib"]
@@ -35,7 +36,8 @@ Gem::Specification.new do |s|
   s.summary = %q{Plugin to remove spaces on fields}
   s.test_files = [
     "spec/acts_as_strip_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "spec/support/models.rb"
   ]
 
   if s.respond_to? :specification_version then
