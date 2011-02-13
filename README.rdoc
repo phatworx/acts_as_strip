@@ -4,8 +4,9 @@ Plugin to remove spaces on fields
 
 == Support for
 
-* ActiveRecord
+* ActiveRecord (with auto strip)
 * ActiveModel
+* And other
 
 == Install
 
