@@ -18,6 +18,11 @@ class Model < ActiveRecord::Base
   acts_as_strip :field1, :field2
 end
 
+== Maintainers
+
+* Team Phatworx (http://github.com/phatworx)
+* Marco Scholl (http://github.com/traxanos)
+
 == Contributing to acts_as_strip
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
@@ -30,6 +35,5 @@ end
 
 == Copyright
 
-Copyright (c) 2010 Marco Scholl. See LICENSE.txt for
-further details.
+Copyright (c) 2010 Marco Scholl. See LICENSE.txt for further details.
 
