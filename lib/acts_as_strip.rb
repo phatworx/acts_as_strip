@@ -36,7 +36,7 @@ module ActsAsStrip
     # ----
     #
     # === Example:
-    # User.new(data).strip_fields
+    # User.new(data).strip_fields!
     def strip_fields!
       strip_fields.each do |n|
         send("#{n}=", send("#{n}").strip) if send("#{n}").respond_to?('strip')
